@@ -25,7 +25,7 @@ chmod +x post-receive
 echo "
 Resolved:
   - Git directory: $git_path/$project_name.git
-  - Deploy directory: $deploy_path/$project_name.git
+  - Deploy directory: $deploy_path/$project_name
 Remote:
   ssh://user@ip:port/$git_path/$project_name.git
 "
