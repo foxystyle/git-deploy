@@ -11,6 +11,11 @@ Use `git clone` to download this script to your local machine or server.
 
 Execute script like `./git-deploy.sh` or `sh git-deploy.sh`. Fill three inputs. Git repo is where your git files will be stored, deploy repo is where your actual folder will be deployed.
 
+## Example prompt input
+
+Git path: /srv/
+Deploy path: /var/www/apps/
+
 ## Remote
 
 Add ssh remote such as:

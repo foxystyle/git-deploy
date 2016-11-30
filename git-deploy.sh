@@ -5,10 +5,10 @@ echo "
 echo "Enter project name: "
 read project_name
 #
-echo "Enter git path: "
+echo "Enter git path: /srv/"
 read git_path
 #
-echo "Enter deploy path: "
+echo "Enter deploy path: /var/www/apps/"
 read deploy_path
 
 #
