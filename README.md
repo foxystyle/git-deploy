@@ -12,17 +12,17 @@ git clone https://github.com/kunokdev/git-deploy
 
 ## Usage
 
-There are two ways to execute this script:
+There are two ways to execute this script: (you might need to use `sudo`)
 
 ### Interactive mode:  
 
-`./git-deploy.sh -i`
+`sudo ./git-deploy.sh -i`
 
 It will ask you to enter each argument step by step. First prompt is required, other two can fall to defaults (suggestions)
 
 ### With arguments:
 
- `.git-deploy.sh REPO_NAME REPOS_PATH DEPLOY_PATH`
+ `sudo .git-deploy.sh REPO_NAME REPOS_PATH DEPLOY_PATH`
 
 - REPO_NAME - name of repository, this will be used as directory name in filesystem
 - REPOS_PATH - absolute path to directory where your git files will be stored
