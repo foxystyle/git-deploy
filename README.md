@@ -39,8 +39,14 @@ Then from your development machine you can add remote to your working repository
 This is how your command for adding git remote should look like:
 
 ```
-git remote add <remote_name> ssh://user@ip[:port]/absolute/path/<project_name>
+git remote add <remote_name> ssh://root@10.10.10.10:2222/srv/git-repo-name 
 ```
+
+- `ssh://` is protocol to be used
+- `root` is user
+- `@10.10.10` represents server IP
+- `:2222` represents port (omitted in most cases)
+- `/srv/git-repo-name` represents absolute path to your git repo on the server 
 
 Then you can push as usual and it will automatically deploy usable files to the server too.
 
